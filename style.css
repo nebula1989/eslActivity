@@ -1,3 +1,28 @@
+body {
+	padding: 5px;
+}
+
 #btnContainer {
 	background-color: grey;
+	padding: 5px;
+}
+
+#verbBtn {
+	color: red;
+}
+
+#timeBtn {
+	color: green;
+}
+
+#subjectBtn {
+	color: blue;
+}
+
+#objectBtn {
+	color: purple;
+}
+
+.big {
+	font-size: 24px;
 }
