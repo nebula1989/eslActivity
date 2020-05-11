@@ -4,9 +4,13 @@ var verbs = ["eat", "play with", "go to", "talk to", "see", "want"];
 var objects = ["me", "my teacher", "a car", "a cat"];
 
 
-document.getElementById("timeBtn").onclick = function() {changeTimeWord()};
+document.getElementById("timeBtn").onclick = function() {document.getElementById("timeBtn").innerHTML = timeWords[Math.floor(Math.random()*timeWords.length)];};
+document.getElementById("subjectBtn").onclick = function() {document.getElementById("subjectBtn").innerHTML = subjects[Math.floor(Math.random()*subjects.length)];};
 
 function changeTimeWord() {
-	var randomTimeWord = timeWords[Math.floor(Math.random()*timeWords.length)];
-	document.getElementById("timeBtn").innerHTML = randomTimeWord;		
+	// change time words
+	
+	// chnage subjects
+	
+
 }
